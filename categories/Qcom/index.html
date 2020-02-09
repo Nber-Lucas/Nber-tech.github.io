@@ -334,10 +334,10 @@ lazyScripts.push('//s95.cnzz.com/z_stat.php?id=1255152447&web_id=1255152447')
     var OriginTitile = document.title, titleTime;
     document.addEventListener('visibilitychange', function() {
         if (document.hidden) {
-            document.title = '';
+            document.title = 'Lucasの博客';
             clearTimeout(titleTime);
         } else {
-            document.title = '';
+            document.title = 'Lucasの博客';
             titleTime = setTimeout(function() {
                 document.title = OriginTitile;
             },2000);
